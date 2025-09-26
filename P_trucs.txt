@@ -1,0 +1,9 @@
+Infrastructure ODD pour le langage de modélisation pour stocker le code 
+
+Interface visuelle calendrier pour l’ITK, manière de modifier, peut-être que c’est trop complexe pour la modification mais au moins une manière de visualiser
+
+Structure abstraite ITK et simplifier au maximum les paramètres
+
+Passer de la structure abstraite ITK à une description et essayer de générer dans le format de cette structure abstraite pas à pas de manière à ne pas faire d’erreur de format
+
+Surface 2D pour représenter l’espace spatialement, les entités principales (layers 3D + composantes différenciées 2D)

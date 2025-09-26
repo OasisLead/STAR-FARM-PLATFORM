@@ -1,0 +1,426 @@
+### PROMPT: Report_Agriculture_Mekong_input
+You are an expert in agriculture in {user_inputs'place'}. 
+
+I want you to make me a report comparing these two farming practices:
+1. {user_inputs'practice1'}
+2. {user_inputs'practice2'}
+
+Additional context to consider:
+{user_inputs'system_info'}
+
+The report should contain:
+- A detailed comparison of the two practices
+- A list of key processes that make each practice viable or interesting
+- A systemic analysis considering the whole farming system
+### END
+
+
+
+
+
+
+
+
+
+
+### PROMPT: Report_Agriculture_Mekong_AWD_KenGiang
+You are an expert in agriculture, especially about the Ken Giang province in the Mekong delta in Vietnam. 
+
+I want you to make me a report comparing these two farming practices:
+1. Alternate wetting and drying rice farming
+2. Continuous flooding rice farming
+
+### END
+
+
+
+
+### PROMPT: Report_Agriculture_Mekong_AWD_KenGiang_1
+You are an expert in agriculture, especially about the Ken Giang province in the Mekong delta in Vietnam. 
+
+I want you to make me a report comparing these two farming practices:
+1. Alternate wetting and drying rice farming
+2. Continuous flooding rice farming
+
+The report should contain:
+- A detailed comparison of the two practices
+- A list of key processes that make each practice viable or interesting
+- A systemic analysis of theses processes considering the whole farming system, the value chain, and various environmental scenarios
+### END
+
+
+
+
+
+
+### PROMPT: Report_Agriculture_Mekong_coconut_TraVinh
+You are an expert in agriculture, especially about the Tra Vinh province, Cau Ke District, Tam Ngãi commune in the Mekong delta in Vietnam. 
+
+I want you to make me a report comparing these two farming practices:
+1. Coconut-bee (-fish/prawn-cattle) integrated system 
+2. Classic coconut farming
+
+The report should contain:
+- A detailed comparison of two practices over the key indicators of agroecology
+- The processes that cause these differences 
+### END
+
+
+
+### PROMPT: Report_Agriculture_Mekong_rice_shrimp_KenGiang_bis
+You are an expert in agriculture, especially about the Ken Giang province, An Bien District, Nam Yên commune in the Mekong delta in Vietnam. 
+
+I want you to make me a report comparing these two farming practices:
+1. Ecologically - oriented rice-shimp (rotational) system 
+2. Classic (modern) rice farming
+
+The report should contain:
+- A detailed comparison of two practices over the key indicators of agroecology
+- The processes that cause these differences 
+### END
+
+
+
+### PROMPT: Report_Agriculture_Mekong_rice_lotus_DongThap
+You are an expert in agriculture, especially about the Dong Thap province, Thap Muoi District, Thạnh Lợi commune in the Mekong delta in Vietnam. 
+
+I want you to make me a report comparing these two farming practices:
+1. Rice-lotus farming
+2. Classic (modern) rice farming
+
+The report should contain:
+- A detailed comparison of two practices over the key indicators of agroecology
+- The processes that cause these differences 
+### END
+
+
+
+### PROMPT: Report_Agriculture_Mekong_mango_DongThap_bis
+You are an expert in agriculture, especially about the Dong Thap province, Cao Lanh District, Bình Hàng Tây commune in the Mekong delta in Vietnam. 
+
+I want you to make me a report comparing these two farming practices:
+1. Mango farming meeting quality standards according to GlobalGap process 
+2. Classical Mango farming (Modern)
+
+The report should contain:
+- A detailed comparison of two practices over the key indicators of agroecology
+- The processes that cause these differences 
+### END
+
+
+
+
+
+
+
+
+
+### PROMPT: Report_Agriculture_details
+
+The report should contain:
+
+- A detailed description of the two practices
+- A list of key processes that make each practice viable or interesting
+- A systemic analysis of theses processes considering the whole farming system, the value chain, and various environmental scenarios
+- A detailed comparison of two practices over the key indicators of agroecology
+- The processes that cause these differences 
+
+
+### END
+
+
+### PROMPT: Report_Agriculture_details_1
+
+The report should contain:
+
+- A detailed comparison of two practices over the key indicators of agroecology
+- A list of key processes that make each practice better or worst on these indicators
+- A systemic analysis of each of these processes considering the whole farming system, the value chain, the social and economic dimensions and various environmental scenarios
+
+
+### END
+
+
+
+
+
+
+
+
+### PROMPT: Task_agents_attributes
+
+You are a agent based modelling expert, your have a very good knowledge of the Overview, Design concepts, Details (ODD) Protocol.
+
+I will give you a report on two farming practices.
+
+For each part of the report, I want you to :
+- Detail the agents, attributes and actions that you would implement if you were to make a model on the two practices
+
+
+### END
+
+
+### PROMPT: Task_agents_attributes_1
+
+You are a agent based modelling expert, your have a very good knowledge of the Overview, Design concepts, Details (ODD) Protocol.
+
+I will give you a report on two farming practices.
+
+As if you were going to build an agent based model on the two practices, I want you to write an ODD style report such that for each part of the research report, detail the agents, attributes and actions. Then Detail the scenarios that could be tested on this model. Finally, define a plan to build the model step by step.
+
+### END
+
+
+
+
+
+
+### PROMPT: Report_Climate_Impact
+You are a climate scientist analyzing...
+
+### END
+
+
+
+### PROMPT: Initial_Practice_Analysis
+You are an expert in agent-based modeling for agricultural systems. I need to compare Practice A and Practice B in LocationSystem.
+
+First, disambiguate and clarify:
+1. Define each practice precisely - what does it entail?
+2. Identify key implementation characteristics
+3. Map these to agents, attributes, actions, and action parameters
+4. Describe the agricultural system context (crop type, region, typical practices)
+5. Note any uncertainties or information gaps
+
+Format your response with clear sections for each practice and system component.
+
+### END
+
+
+
+
+
+### PROMPT: Indicator-Based_Deep_Analysis
+For comparing Practice A vs Practice B in System, analyze the impact on Specific Indicator:
+
+1. Current research findings on how each practice affects this indicator
+2. Systemic processes involved (describe the causal chain)
+3. Key agents and attributes relevant to this indicator
+4. Data sources and measurement approaches
+5. Controversies or debates in the literature
+6. Confidence level in current knowledge
+
+Cite specific research papers and authoritative sources (FAO, peer-reviewed journals).
+
+### END
+
+
+
+### PROMPT: Agent-Action_Mapping
+You are designing an agent-based model comparing Practice A and Practice B. 
+
+For each practice, specify:
+- AGENTS: List all relevant agents (farmers, crops, soil, water systems, etc.)
+- ATTRIBUTES: For each agent, list key attributes that vary between practices
+- ACTIONS: What actions does each agent perform?
+- PARAMETERS: For each action, what parameters change between practices?
+- TRIGGERS: What conditions trigger each action?
+- INTERACTIONS: How do agents interact differently under each practice?
+
+Present this as a structured comparison table.
+### END
+
+
+
+### PROMPT: Scenario_Development
+Develop scenarios for comparing Practice A vs Practice B over timeframe:
+
+1. BASELINE TRENDS: What's currently happening in the system?
+2. CLIMATE SCENARIOS: How might changing rainfall/temperature affect outcomes?
+3. ECONOMIC SCENARIOS: Market changes, input costs, policy shifts
+4. ADOPTION SCENARIOS: Different rates and patterns of practice adoption
+5. CRITICAL UNCERTAINTIES: What variables most affect the comparison?
+
+For each scenario, identify:
+- Key parameters to vary
+- Probable ranges for variation
+- Indicators most sensitive to this scenario
+### END
+
+
+### PROMPT: Stakeholder_Analysis
+Analyze how different stakeholders view Practice A vs Practice B:
+
+For each stakeholder group (farmers, government, cooperatives, NGOs, value chain actors):
+1. Primary indicators they care about
+2. Values driving their preferences
+3. Trade-offs they're willing to accept
+4. Potential conflicts with other stakeholders
+5. How to represent their decision-making in the model
+
+Consider both individual and collective behavior dynamics.
+### END
+
+
+### PROMPT: ODD_Protocol_Implementation
+Using the ODD (Overview, Design concepts, Details) protocol, create a modeling plan for comparing Practice A and Practice B:
+
+OVERVIEW:
+- Purpose of the model
+- Entities, state variables, and scales
+- Process overview and scheduling
+
+DESIGN CONCEPTS:
+- Basic principles
+- Emergence patterns
+- Adaptation mechanisms
+- Learning and prediction
+- Sensing and interaction
+- Stochasticity
+- Observation methods
+
+DETAILS:
+- Initialization
+- Input data requirements
+- Submodels for each process
+
+Provide implementation guidance for each section.
+
+### END
+
+
+### PROMPT: Comprehensive_Synthesis
+Create a comprehensive report comparing Alternated wetting and drying rice farming and alternate wetting and drying rice farming for the Vietnamese Mekong Delta:
+
+Structure:
+1. EXECUTIVE SUMMARY: Key findings and recommendations
+2. PRACTICE DESCRIPTIONS: Detailed breakdown using agent-based framework
+3. INDICATOR ASSESSMENT: Performance across environmental, economic, social dimensions
+4. SCENARIO ANALYSIS: Outcomes under different futures
+5. CONTROVERSIES: Disputed aspects and uncertainty areas
+6. MODELING RECOMMENDATIONS: 
+   - Simple model (Level 1): Basic comparison
+   - Complex model (Level 2): Full system dynamics
+7. DATA REQUIREMENTS: Sources and gaps
+8. IMPLEMENTATION ROADMAP: Step-by-step modeling guide
+
+Include confidence levels and cite sources throughout.
+
+### END
+
+
+### PROMPT: Process_Identification
+Identify key processes for modeling Practice A vs Practice B:
+
+ANNUAL PROCESSES:
+- What happens during a growing season?
+- Critical decision points
+- Resource flows
+
+MULTI-YEAR PROCESSES:
+- Soil evolution (erosion, salinization, fertility)
+- Economic trends (debt, investment, market position)
+- Adoption dynamics
+- Ecosystem/Climate system changes
+
+For each process:
+- Relevant timescale
+- Spatial scale
+- Key variables
+- Feedback mechanisms
+- Measurement approaches
+
+### END
+
+
+
+
+
+### PROMPT: report_full
+
+Introduction:
+This report compares two primary rice farming practices, Alternate Wetting and Drying (AWD) and Continuous Flooding (CF), focusing on 
+their impact on key agroecology indicators and the underlying processes causing these differences. Agroecology aims to integrate 
+ecological principles into agricultural practices, promoting sustainability and resilience.
+
+Key Agroecology Indicators Comparison:
+
+1.  Yield:
+    *   **Alternate Wetting and Drying (AWD):** Research indicates that AWD can maintain rice yields, comparable to CF, while 
+significantly reducing water consumption.
+    *   **Continuous Flooding (CF):** Traditionally, CF is known to provide stable and often high yields due to consistent water 
+availability and nutrient management.
+
+2.  Biodiversity:
+    *   **Alternate Wetting and Drying (AWD):** AWD influences microbial communities in the soil, potentially leading to shifts in 
+species composition due to the changing oxygen levels. The repeated wetting and drying cycles can create a more dynamic environment 
+for various microorganisms.
+    *   **Continuous Flooding (CF):** CF creates an anaerobic environment which favors specific microbial communities adapted to 
+flooded conditions. While specific details on its direct impact on overall biodiversity compared to AWD were not extensively detailed 
+in the provided search results, its stable water regime contrasts with AWD's fluctuating conditions.
+
+3.  Nutrient Cycling:
+    *   **Alternate Wetting and Drying (AWD):** AWD improves soil quality and increases micronutrient availability. The alternating 
+aerobic and anaerobic conditions can enhance certain nutrient transformations and reduce losses of some nutrients (e.g., through 
+denitrification).
+    *   **Continuous Flooding (CF):** Continuous flooding generally increases nutrient availability, particularly phosphorus and 
+silicon, by creating reducing conditions that solubilize certain compounds. However, it can also lead to losses of nitrogen through 
+denitrification under prolonged anaerobic conditions.
+
+4.  Water Use:
+    *   **Alternate Wetting and Drying (AWD):** A primary benefit of AWD is its substantial water-saving potential. By allowing the 
+soil to dry out to a certain extent before re-flooding, it reduces irrigation water requirements without necessarily compromising 
+yield.
+    *   **Continuous Flooding (CF):** CF requires a constant level of standing water throughout much of the rice growing season, 
+making it a water-intensive practice.
+
+5.  Greenhouse Gas (GHG) Emissions:
+    *   **Alternate Wetting and Drying (AWD):** AWD affects emissions of greenhouse gases such as methane (CH4) and nitrous oxide 
+(N2O). The intermittent drying phases reduce methane emissions (which thrive in anaerobic conditions) but can sometimes increase 
+nitrous oxide emissions (produced during nitrification/denitrification in alternating conditions), though the net effect is often a 
+reduction in overall GWP (Global Warming Potential).
+    *   **Continuous Flooding (CF):** Continuous flooding creates strongly anaerobic conditions in the soil, which are highly 
+conducive to the production and emission of methane (CH4) by methanogenic bacteria. This makes CF a significant contributor to 
+agricultural greenhouse gas emissions.
+
+Processes Causing These Differences:
+
+The fundamental differences between AWD and CF stem primarily from the **water management regime** and its direct impact on soil 
+aeration and microbial activity.
+
+*   **Soil Aeration and Redox Potential:**
+    *   **AWD:** The alternating wetting and drying cycles lead to fluctuations in soil aeration. During the dry phase, oxygen 
+penetrates the soil, making it aerobic. This shifts the redox potential (reduction-oxidation conditions).
+    *   **CF:** Continuous flooding maintains an anaerobic (oxygen-depleted) environment in the soil due to the lack of oxygen 
+diffusion through the water layer. The redox potential remains consistently low.
+
+*   **Microbial Activity and Community Structure:**
+    *   **AWD:** The changing aeration conditions in AWD create a dynamic environment that supports a broader range of microbial 
+communities. Aerobic microbes become active during the dry phase, influencing organic matter decomposition and nutrient 
+transformations, while anaerobic microbes dominate during the flooded phase. This fluctuation impacts processes like nitrification 
+(aerobic) and denitrification (anaerobic), influencing N2O emissions, and inhibits methanogenesis (anaerobic), reducing CH4 emissions.
+    *   **CF:** The constant anaerobic conditions in CF favor anaerobic microorganisms, particularly methanogens (methane-producing 
+bacteria) and denitrifiers (nitrogen-reducing bacteria). This leads to higher methane emissions and significant nitrogen losses 
+through denitrification, although it can also enhance the availability of certain nutrients by creating reducing conditions.
+
+*   **Nutrient Availability and Transformation:**
+    *   **AWD:** The alternating conditions promote a more balanced nutrient cycling. Aerobic conditions during drying facilitate the 
+oxidation of organic matter and release of nutrients, and improve the availability of micronutrients like iron and zinc that might be 
+less available under continuous flooding.
+    *   **CF:** The anaerobic conditions in CF can lead to the reduction of certain compounds, making nutrients like phosphorus and 
+silicon more available. However, it also creates conditions for nitrogen loss through denitrification.
+
+*   **Water Conservation:**
+    *   **AWD:** The deliberate drying phases are the direct cause of water savings. This allows for reduced irrigation events and 
+overall water use without causing severe water stress to the rice plants, which are relatively tolerant to intermittent dry periods 
+after establishment.
+    *   **CF:** The continuous maintenance of standing water inherently requires more water inputs due to evaporation, percolation, 
+and runoff.
+
+Conclusion:
+AWD rice farming offers significant agroecological advantages over CF, particularly in water conservation and reduced greenhouse gas 
+emissions, while maintaining comparable yields. These differences are primarily driven by the contrasting soil aeration conditions, 
+which in turn dictate microbial activity, nutrient cycling, and gas production processes. As climate change and water scarcity 
+intensify, AWD presents a more sustainable and resilient approach to rice cultivation.
+
+### END
